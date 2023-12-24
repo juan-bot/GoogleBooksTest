@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/frgBooksSearch">
+    <fragment
+        android:id="@+id/frgBooksSearch"
+        android:name="com.example.googlebooksapitest.presenter.view.fragment.FrgBooksSearch"
+        android:label="frg_books_search"
+        tools:layout="@layout/frg_books_search" >
+        <action
+            android:id="@+id/toFrgBookDetail"
+            app:destination="@id/frgBookDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/frgBookDetail"
+        android:name="com.example.googlebooksapitest.presenter.view.fragment.FrgBookDetail"
+        android:label="frg_book_detail"
+        tools:layout="@layout/frg_book_detail" />
+</navigation>
