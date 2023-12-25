@@ -22,7 +22,9 @@ class FrgBookDetail : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        Picasso.get().load(argsFromSearch.imgCover).into(binding.imgTop)
-
+        Picasso.get().load(argsFromSearch.imgCover).into(binding.imgBook)
+        binding.tvTitle.text = argsFromSearch.title
+        binding.tvAuthor.text  = argsFromSearch.author
+        binding.tvDescription.text  = argsFromSearch.description
     }
 }
