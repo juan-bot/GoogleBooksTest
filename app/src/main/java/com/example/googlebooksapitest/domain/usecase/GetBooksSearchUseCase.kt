@@ -5,8 +5,8 @@ import com.example.googlebooksapitest.domain.repository.GetBooksRepository
 
 class GetBooksSearchUseCase {
     private val repository = GetBooksRepository()
-    suspend operator fun invoke(cad: String): ResponseData {
-        val response = repository.getByWord(cad)
+    suspend operator fun invoke(cad: String, key: String): ResponseData {
+        val response = repository.getByWord(cad,key)
         return if(response.isSuccessful){
 
             val responseBody = response.body()

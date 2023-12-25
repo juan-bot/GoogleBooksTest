@@ -1,22 +1,26 @@
 package com.example.googlebooksapitest.presenter.view.adapter
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import coil.load
+import com.bumptech.glide.Glide
 import com.example.googlebooksapitest.R
 import com.example.googlebooksapitest.presenter.model.BookModel
 import com.squareup.picasso.Picasso
 
 class AdpBookList(private val books: List<BookModel>): RecyclerView.Adapter<AdpBookList.ViewHolder>(){
-
+    lateinit var context: Context
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val itemLayout = when (viewType){
             0 -> R.layout.item_book
             else -> throw Exception("invalid type")
         }
+        context = parent.context
         val view = LayoutInflater.from(parent.context).inflate(itemLayout, parent, false)
         return ViewHolder(view)
     }
@@ -36,8 +40,14 @@ class AdpBookList(private val books: List<BookModel>): RecyclerView.Adapter<AdpB
             val imgCover: ImageView = itemView.findViewById(R.id.img_book)
             tvTitle.text = item.title
             tvAuthor.text = item.author
-            Picasso.get().load(item.imgCover).into(imgCover)
+            if(item.imgCover!=""){
+                val url = item.imgCover.substring(0, 4) + 's' + item.imgCover.substring(4)
+                Picasso.get().load(url).into(imgCover)
+            }
+            else
+                imgCover.setImageResource(R.drawable.no_available)
         }
     }
 
 }
+
