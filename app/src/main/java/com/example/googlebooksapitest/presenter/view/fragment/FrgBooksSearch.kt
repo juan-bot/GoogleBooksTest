@@ -28,11 +28,12 @@ class FrgBooksSearch : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.recyclerBooks.layoutManager = LinearLayoutManager(requireContext())
-        viewModel.searchBooksFromWeb("harry potter")
+        viewModel.searchBooksFromWeb("harry")
         viewModel.adpBookList.observe(viewLifecycleOwner){
             adapter = it
             binding.recyclerBooks.adapter = it
         }
+
     }
 
 }
