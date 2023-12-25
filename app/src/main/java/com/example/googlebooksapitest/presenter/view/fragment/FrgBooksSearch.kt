@@ -11,12 +11,12 @@ import com.example.googlebooksapitest.databinding.FrgBooksSearchBinding
 
 
 class FrgBooksSearch : Fragment() {
-    private lateinit var binding: FrgBookDetailBinding
+    private lateinit var binding: FrgBooksSearchBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FrgBookDetailBinding.inflate(inflater, container, false)
+        binding = FrgBooksSearchBinding.inflate(inflater, container, false)
         return binding.root
     }
 

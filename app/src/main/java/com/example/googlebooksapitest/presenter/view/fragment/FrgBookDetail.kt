@@ -7,15 +7,16 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.googlebooksapitest.R
 import com.example.googlebooksapitest.databinding.ActivityMainBinding
+import com.example.googlebooksapitest.databinding.FrgBookDetailBinding
 import com.example.googlebooksapitest.databinding.FrgBooksSearchBinding
 
 class FrgBookDetail : Fragment() {
-    private lateinit var binding: FrgBooksSearchBinding
+    private lateinit var binding: FrgBookDetailBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FrgBooksSearchBinding.inflate(inflater, container, false)
+        binding = FrgBookDetailBinding.inflate(inflater, container, false)
         return binding.root
     }
 }
