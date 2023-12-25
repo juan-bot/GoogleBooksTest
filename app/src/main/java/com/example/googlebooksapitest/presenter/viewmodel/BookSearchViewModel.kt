@@ -33,7 +33,7 @@ class BookSearchViewModel: ViewModel()  {
                         title = volumeInfo.title,
                         description = volumeInfo.description?:"No description",
                         imgCover = imglink,
-                        author = volumeInfo.authors[0],
+                        author = volumeInfo?.authors?.get(0) ?:"No authors",
                         published = volumeInfo.publisher?:"No information",
                         favorite = false,
                         linkToWeb = volumeInfo.canonicalVolumeLink ,
