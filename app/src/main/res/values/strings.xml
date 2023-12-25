@@ -4,4 +4,6 @@
     <string name="hello_blank_fragment">mmmmm</string>
     <string name="navigate_to_book_detail">navigate to book detail</string>
     <string name="btn_detail">Ir a detalle</string>
+    <string name="go_website">Ir al libro</string>
+    <string name="description">Descripcion</string>
 </resources>
