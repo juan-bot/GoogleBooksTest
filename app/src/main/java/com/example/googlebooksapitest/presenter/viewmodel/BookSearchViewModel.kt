@@ -1,5 +1,7 @@
 package com.example.googlebooksapitest.presenter.viewmodel
 
+import android.content.Context
+import android.view.View
 import androidx.lifecycle.GeneratedAdapter
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -7,16 +9,18 @@ import androidx.lifecycle.viewModelScope
 import com.example.googlebooksapitest.domain.repository.GetBooksRepository
 import com.example.googlebooksapitest.domain.usecase.GetBooksSearchUseCase
 import com.example.googlebooksapitest.presenter.model.BookModel
+import com.example.googlebooksapitest.presenter.view.BookListClickListener
 import com.example.googlebooksapitest.presenter.view.adapter.AdpBookList
 import kotlinx.coroutines.launch
 
-class BookSearchViewModel: ViewModel()  {
-
+class BookSearchViewModel(): ViewModel()  {
     private lateinit var adapter: AdpBookList
     var adpBookList: MutableLiveData<AdpBookList> = MutableLiveData()
     private val repo = GetBooksSearchUseCase()
-    fun searchBooksFromWeb(words: String){
+    lateinit var listener: BookListClickListener
+    fun searchBooksFromWeb(words: String, listener: BookListClickListener){
         viewModelScope.launch {
+
             val key = "AIzaSyCCWDp98j__XlMqeMfjADfut2xjVFj-Mig"
             val response = repo.invoke(words,key)
             if(response.success){
@@ -39,10 +43,11 @@ class BookSearchViewModel: ViewModel()  {
                         linkToWeb = volumeInfo.canonicalVolumeLink ,
                     ))
                 }
-                adapter = AdpBookList(books)
+                adapter = AdpBookList(books, listener)
                 adpBookList.postValue(adapter)
             }
 
         }
     }
+
 }

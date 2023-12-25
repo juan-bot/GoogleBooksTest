@@ -11,11 +11,62 @@
         tools:layout="@layout/frg_books_search" >
         <action
             android:id="@+id/toFrgBookDetail"
-            app:destination="@id/frgBookDetail" />
+            app:destination="@id/frgBookDetail" >
+            <argument
+                android:name="title"
+                app:argType="string"
+                />
+            <argument
+                android:name="imgCover"
+                app:argType="string" />
+            <argument
+                android:name="author"
+                app:argType="string" />
+            <argument
+                android:name="published"
+                app:argType="string" />
+            <argument
+                android:name="description"
+                app:argType="string" />
+            <argument
+                android:name="linkToWeb"
+                app:argType="string" />
+            <argument
+                android:name="favorite"
+                app:argType="boolean" />
+        </action>
+
+
     </fragment>
     <fragment
         android:id="@+id/frgBookDetail"
         android:name="com.example.googlebooksapitest.presenter.view.fragment.FrgBookDetail"
         android:label="frg_book_detail"
-        tools:layout="@layout/frg_book_detail" />
+        tools:layout="@layout/frg_book_detail" >
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="imgCover"
+            app:argType="string" />
+        <argument
+            android:name="author"
+            app:argType="string" />
+        <argument
+            android:name="published"
+            app:argType="string"
+            android:defaultValue="no information" />
+        <argument
+            android:name="description"
+            app:argType="string"
+            android:defaultValue="no information" />
+        <argument
+            android:name="linkToWeb"
+            app:argType="string" />
+        <argument
+            android:name="favorite"
+            app:argType="boolean" />
+
+    </fragment>
+
 </navigation>

@@ -7,13 +7,12 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import coil.load
-import com.bumptech.glide.Glide
 import com.example.googlebooksapitest.R
 import com.example.googlebooksapitest.presenter.model.BookModel
+import com.example.googlebooksapitest.presenter.view.BookListClickListener
 import com.squareup.picasso.Picasso
 
-class AdpBookList(private val books: List<BookModel>): RecyclerView.Adapter<AdpBookList.ViewHolder>(){
+class AdpBookList(private val books: List<BookModel>,val onClickBook: BookListClickListener): RecyclerView.Adapter<AdpBookList.ViewHolder>(){
     lateinit var context: Context
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val itemLayout = when (viewType){
@@ -46,6 +45,9 @@ class AdpBookList(private val books: List<BookModel>): RecyclerView.Adapter<AdpB
             }
             else
                 imgCover.setImageResource(R.drawable.no_available)
+            imgCover.setOnClickListener {
+                onClickBook.onBookListItemClick(it, item)
+            }
         }
     }
 
