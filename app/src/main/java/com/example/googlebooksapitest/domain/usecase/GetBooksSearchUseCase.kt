@@ -11,12 +11,12 @@ class GetBooksSearchUseCase {
 
             val responseBody = response.body()
             if(responseBody != null){
-                ResponseData(body = response.body(), success = true, msg ="YES")
+                ResponseData(body = response.body(),null, success = true, msg ="YES")
             } else {
-                ResponseData(body = null, success = false, msg ="Error")
+                ResponseData(body = null,null, success = false, msg ="Error")
             }
         } else {
-            ResponseData(body = null, success = false, msg ="Error")
+            ResponseData(body = null,null, success = false, msg ="Error")
         }
     }
 }
