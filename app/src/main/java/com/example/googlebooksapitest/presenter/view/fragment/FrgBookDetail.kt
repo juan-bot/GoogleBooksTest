@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import com.example.googlebooksapitest.databinding.FrgBookDetailBinding
+import com.squareup.picasso.Picasso
 
 class FrgBookDetail : Fragment() {
     private lateinit var binding: FrgBookDetailBinding
@@ -21,6 +22,7 @@ class FrgBookDetail : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        println("arg 1: ${argsFromSearch.title}")
+        Picasso.get().load(argsFromSearch.imgCover).into(binding.imgTop)
+
     }
 }

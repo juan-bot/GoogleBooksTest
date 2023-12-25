@@ -31,7 +31,7 @@ class BookSearchViewModel(): ViewModel()  {
                         ""
                     }
                     else {
-                        volumeInfo.imageLinks.smallThumbnail
+                        item.volumeInfo.imageLinks.smallThumbnail.substring(0, 4) + 's' + item.volumeInfo.imageLinks.smallThumbnail.substring(4)
                     }
                     books.add (BookModel(
                         title = volumeInfo.title,
