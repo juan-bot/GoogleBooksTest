@@ -1,0 +1,734 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1665,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "4RENAQAAMAAJ",
+      "etag": "HjJmYf7zZEI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4RENAQAAMAAJ",
+      "volumeInfo": {
+        "title": "Harry Potter y la piedra filosofal",
+        "authors": [
+          "J. K. Rowling"
+        ],
+        "publisher": "Turtleback",
+        "publishedDate": "2001",
+        "description": "Rescatado del descuido de su tia y tio, un huerfano con un gran destino matricula en la escuela Hogwarts para Magos y Brujas.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PSU:000053878991"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 264,
+        "printType": "BOOK",
+        "categories": [
+          "England"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4RENAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4RENAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.mx/books?id=4RENAQAAMAAJ&q=Harry+Potter+y+la+piedra+filosofal&dq=Harry+Potter+y+la+piedra+filosofal&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com.mx/books?id=4RENAQAAMAAJ&dq=Harry+Potter+y+la+piedra+filosofal&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_y_la_piedra_filosofal.html?hl=&id=4RENAQAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "MX",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "MX",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=4RENAQAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Rescatado del descuido de su tia y tio, un huerfano con un gran destino matricula en la escuela Hogwarts para Magos y Brujas."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2zgRDXFWkm8C",
+      "etag": "FuQdIn+NA4M",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2zgRDXFWkm8C",
+      "volumeInfo": {
+        "title": "Harry Potter y la piedra filosofal",
+        "authors": [
+          "J.K. Rowling"
+        ],
+        "publisher": "Pottermore Publishing",
+        "publishedDate": "2015-12-08",
+        "description": "Con las manos temblorosas, Harry le dio la vuelta al sobre y vio un sello de lacre púrpura con un escudo de armas: un león, un águila, un tejón y una serpiente, que rodeaban una gran letra H. Harry Potter nunca había oído nada sobre Hogwarts cuando las cartas comienzan a caer en el felpudo del número cuatro de Privet Drive. Escritas en tinta verde en un pergamino amarillento con un sello morado, sus horribles tíos las han confiscado velozmente. En su undécimo cumpleaños, un hombre gigante de ojos negros llamado Rubeus Hagrid aparece con una noticia extraordinaria: Harry Potter es un mago y tiene una plaza en el Colegio Hogwarts de Magia y Hechicería. ¡Una aventura increíble está a punto de empezar! Tema musical compuesto por James Hannigan.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781781101315"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1781101310"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 124,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.17.17.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=2zgRDXFWkm8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=2zgRDXFWkm8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.mx/books?id=2zgRDXFWkm8C&printsec=frontcover&dq=Harry+Potter+y+la+piedra+filosofal&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com.mx/books?id=2zgRDXFWkm8C&dq=Harry+Potter+y+la+piedra+filosofal&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_y_la_piedra_filosofal.html?hl=&id=2zgRDXFWkm8C"
+      },
+      "saleInfo": {
+        "country": "MX",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "MX",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.mx/books/download/Harry_Potter_y_la_piedra_filosofal-sample-epub.acsm?id=2zgRDXFWkm8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.mx/books/download/Harry_Potter_y_la_piedra_filosofal-sample-pdf.acsm?id=2zgRDXFWkm8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=2zgRDXFWkm8C&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Con las manos temblorosas, Harry le dio la vuelta al sobre y vio un sello de lacre púrpura con un escudo de armas: un león, un águila, un tejón y una serpiente, que rodeaban una gran letra H. Harry Potter nunca había oído nada sobre ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "tYTiAAAACAAJ",
+      "etag": "KM69K7EyrPk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/tYTiAAAACAAJ",
+      "volumeInfo": {
+        "title": "Harry Potter y la piedra filosofal / Harry Potter and the Sorcerer's Stone",
+        "authors": [
+          "J. K. Rowling"
+        ],
+        "publishedDate": "2002-01",
+        "description": "For use in schools and libraries only. Rescued from the outrageous neglect of his aunt and uncle, a young boy with a great destiny proves his worth while attending Hogwarts School for Witchcraft and Wizardry.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8478887598"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788478887590"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 258,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "language": "es",
+        "previewLink": "http://books.google.com.mx/books?id=tYTiAAAACAAJ&dq=Harry+Potter+y+la+piedra+filosofal&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com.mx/books?id=tYTiAAAACAAJ&dq=Harry+Potter+y+la+piedra+filosofal&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_y_la_piedra_filosofal_Harry.html?hl=&id=tYTiAAAACAAJ"
+      },
+      "saleInfo": {
+        "country": "MX",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "MX",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=tYTiAAAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "For use in schools and libraries only. Rescued from the outrageous neglect of his aunt and uncle, a young boy with a great destiny proves his worth while attending Hogwarts School for Witchcraft and Wizardry."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "zTFCDwAAQBAJ",
+      "etag": "HVdTmvC9Rnk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/zTFCDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Harry Potter y la piedra filosofal de J. K. Rowling (Guía de lectura)",
+        "subtitle": "Resumen y análisis completo",
+        "authors": [
+          "ResumenExpress,"
+        ],
+        "publisher": "ResumenExpress.com",
+        "publishedDate": "2017-12-07",
+        "description": "ResumenExpress.com presenta y analiza en esta guía de lectura Harry Potter y la piedra filosofal, el primer tomo de una saga de siete volúmenes que escribe J. K. Rowling. Este éxito mundial narra la historia de Harry Potter, un chico que descubre el mundo de los magos y, junto a sus amigos, tendrá que resolver el misterio de la piedra filosofal y derrotar al malvado Voldemort, que parece aterrar a todo el mundo... ¡Ya no tienes que leer y resumir todo el libro, nosotros lo hemos hecho por ti! Esta guía incluye: • Un resumen completo del libro • Un estudio de los personajes • Las claves de lectura • Pistas para la reflexión ¿Por qué elegir ResumenExpress.com? Para aprender de forma rápida. Porque nuestras publicaciones están escritas con un estilo claro y conciso que te ayudará a ganar tiempo y a entender las obras sin esfuerzo. Disponibles en formato impreso y digital, te acompañarán en tu aventura literaria. Toma una dosis de literatura acelerada con ResumenExpress.com",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9782806274199"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "2806274192"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 26,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=zTFCDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=zTFCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.mx/books?id=zTFCDwAAQBAJ&printsec=frontcover&dq=Harry+Potter+y+la+piedra+filosofal&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=zTFCDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=zTFCDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "MX",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 132.36,
+          "currencyCode": "MXN"
+        },
+        "retailPrice": {
+          "amount": 132.36,
+          "currencyCode": "MXN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=zTFCDwAAQBAJ&rdid=book-zTFCDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 132360000,
+              "currencyCode": "MXN"
+            },
+            "retailPrice": {
+              "amountInMicros": 132360000,
+              "currencyCode": "MXN"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "MX",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=zTFCDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "ResumenExpress.com presenta y analiza en esta guía de lectura Harry Potter y la piedra filosofal, el primer tomo de una saga de siete volúmenes que escribe J. K. Rowling."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "uFBZwgEACAAJ",
+      "etag": "XCz5ILYPFxw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/uFBZwgEACAAJ",
+      "volumeInfo": {
+        "title": "Harry Potter y la piedra filosofal",
+        "subtitle": "amigos para siempre",
+        "authors": [
+          "J. K. Rowling"
+        ],
+        "publishedDate": "2001",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "950072166X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9789500721660"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 8,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=uFBZwgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=uFBZwgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.mx/books?id=uFBZwgEACAAJ&dq=Harry+Potter+y+la+piedra+filosofal&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com.mx/books?id=uFBZwgEACAAJ&dq=Harry+Potter+y+la+piedra+filosofal&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_y_la_piedra_filosofal.html?hl=&id=uFBZwgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "MX",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "MX",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=uFBZwgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "sey-DwAAQBAJ",
+      "etag": "FSxrm+Gk7ZM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/sey-DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Una vacante imprevista",
+        "authors": [
+          "J.K. Rowling"
+        ],
+        "publisher": "SALAMANDRA",
+        "publishedDate": "2012-12-18",
+        "description": "La primera novela para adultos de J.K. Rowling. Una gran obra de una narradora extraordinaria. Con su plaza adoquinada y su antiquísima abadía, Pagford parece un típico pueblecito inglés, un lugar idílico en el que la vida transcurre con plácida tranquilidad. Sin embargo, sus habitantes están inmersos en una realidad muy diferente. Tras la conmoción causada por la súbita muerte de Barry Fairbrother, se desencadena una auténtica batalla en sordinapor ocupar la vacante dejada por Barry en el concejo parroquial, donde se dirime el destino de una urbanización de dudosa legalidad. Y cuando la tensión hace aflorar una serie de conflictos latentes que involucran a todo el pueblo -hijos contra padres, pobres contra ricos, mujeres contra maridos, alumnos contra maestros-, la pasión, la hipocresía y,especialmente, los secretos que suelen anidar en una comunidad pequeña desempeñarán un papel decisivo en el futuro de Pagford. La crítica ha dicho... «Una novela maravillosa. J.K. Rowling se sitúa a la altura de Stevenson, Conan Doyle y P.D. James. Sus dotes narrativas se combinan con su habilidad para crear personajes memorables y conmovedores, y el resultado es una novela muy representativa de Inglaterra, rebosante de rabia y ternura.» Melvyn Bragg, The Observer «Una comedia negra exquisita y en ocasiones enternecedora [...]. La prueba de fuego: creo que tendría éxito incluso si su autora no se llamara J. K. Rowling.» David Robinson, The Scotsman «Una gran novela, ambiciosa, genial, irreverente, divertida, profundamente turbadora y magníficamente elocuente sobre la Inglaterra contemporánea [...]. Este es un libro conmovedor escrito por alguien que entiende muy bien a los seres humanos y que sabe mucho de novela.» Lev Grossman, Time Magazine",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788415629412"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8415629419"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 616,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=sey-DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=sey-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.mx/books?id=sey-DwAAQBAJ&printsec=frontcover&dq=Harry+Potter+y+la+piedra+filosofal&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=sey-DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=sey-DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "MX",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 95,
+          "currencyCode": "MXN"
+        },
+        "retailPrice": {
+          "amount": 95,
+          "currencyCode": "MXN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=sey-DwAAQBAJ&rdid=book-sey-DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 95000000,
+              "currencyCode": "MXN"
+            },
+            "retailPrice": {
+              "amountInMicros": 95000000,
+              "currencyCode": "MXN"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "MX",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.mx/books/download/Una_vacante_imprevista-sample-epub.acsm?id=sey-DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.mx/books/download/Una_vacante_imprevista-sample-pdf.acsm?id=sey-DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=sey-DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "La crítica ha dicho... «Una novela maravillosa. J.K. Rowling se sitúa a la altura de Stevenson, Conan Doyle y P.D. James."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "XkBkwgEACAAJ",
+      "etag": "IGW4Bv6jtrs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/XkBkwgEACAAJ",
+      "volumeInfo": {
+        "title": "Harry Potter y la piedra filosofal",
+        "subtitle": "en la plataforma 9 3/4",
+        "authors": [
+          "J. K. Rowling"
+        ],
+        "publishedDate": "2001",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "9500721678"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9789500721677"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 8,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=XkBkwgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=XkBkwgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.mx/books?id=XkBkwgEACAAJ&dq=Harry+Potter+y+la+piedra+filosofal&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com.mx/books?id=XkBkwgEACAAJ&dq=Harry+Potter+y+la+piedra+filosofal&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_y_la_piedra_filosofal.html?hl=&id=XkBkwgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "MX",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "MX",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=XkBkwgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "GBWBoAEACAAJ",
+      "etag": "C7np4RFmfU8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/GBWBoAEACAAJ",
+      "volumeInfo": {
+        "title": "Harry Potter y la piedra filosofal",
+        "authors": [
+          "Joanne Kathleen Rowling"
+        ],
+        "publishedDate": "2001",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8478885617"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788478885619"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 254,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "language": "es",
+        "previewLink": "http://books.google.com.mx/books?id=GBWBoAEACAAJ&dq=Harry+Potter+y+la+piedra+filosofal&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com.mx/books?id=GBWBoAEACAAJ&dq=Harry+Potter+y+la+piedra+filosofal&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_y_la_piedra_filosofal.html?hl=&id=GBWBoAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "MX",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "MX",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=GBWBoAEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "DMVGwgEACAAJ",
+      "etag": "E701C/Fa7sw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/DMVGwgEACAAJ",
+      "volumeInfo": {
+        "title": "Harry Potter y la piedra filosofal",
+        "subtitle": "viaje al mundo de los magos",
+        "authors": [
+          "J. K. Rowling"
+        ],
+        "publishedDate": "2002",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "9500721708"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9789500721707"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 6,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=DMVGwgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=DMVGwgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.mx/books?id=DMVGwgEACAAJ&dq=Harry+Potter+y+la+piedra+filosofal&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com.mx/books?id=DMVGwgEACAAJ&dq=Harry+Potter+y+la+piedra+filosofal&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_y_la_piedra_filosofal.html?hl=&id=DMVGwgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "MX",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "MX",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=DMVGwgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "nWxGwgEACAAJ",
+      "etag": "qfVigILCzqE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nWxGwgEACAAJ",
+      "volumeInfo": {
+        "title": "Harry Potter y la piedra filosofal",
+        "subtitle": "primer año en Hogwarts",
+        "authors": [
+          "J. K. Rowling"
+        ],
+        "publishedDate": "2002",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "9500721694"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9789500721691"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 6,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.mx/books?id=nWxGwgEACAAJ&dq=Harry+Potter+y+la+piedra+filosofal&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com.mx/books?id=nWxGwgEACAAJ&dq=Harry+Potter+y+la+piedra+filosofal&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_y_la_piedra_filosofal.html?hl=&id=nWxGwgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "MX",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "MX",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=nWxGwgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}
