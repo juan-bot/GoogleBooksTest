@@ -4,12 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.googlebooksapitest.R
 import com.example.googlebooksapitest.databinding.FrgBooksSearchBinding
 import com.example.googlebooksapitest.presenter.model.BookModel
 import com.example.googlebooksapitest.presenter.view.BookListClickListener
@@ -50,6 +50,20 @@ class FrgBooksSearch : Fragment(), BookListClickListener {
                 return true
             }
         })
+        binding.swchFav.setOnCheckedChangeListener { buttonView, isChecked ->
+            if (isChecked) {
+                binding.search.setQuery("", false)
+                binding.search.clearFocus()
+                context?.let { viewModel.getFavoritesUsecase(it,listener) }
+                viewModel.favorites.observe(viewLifecycleOwner){
+                    if(!it){
+                        Toast.makeText(context, "No Hay Favoritos", Toast.LENGTH_SHORT).show()
+                    }
+                }
+            } else {
+
+            }
+        }
 
     }
     override fun onBookListItemClick(view: View, user: BookModel) {

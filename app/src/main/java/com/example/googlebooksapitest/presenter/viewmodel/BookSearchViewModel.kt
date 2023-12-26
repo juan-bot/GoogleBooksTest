@@ -1,12 +1,9 @@
 package com.example.googlebooksapitest.presenter.viewmodel
 
 import android.content.Context
-import android.view.View
-import androidx.lifecycle.GeneratedAdapter
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.googlebooksapitest.domain.repository.GetBooksRepository
 import com.example.googlebooksapitest.domain.usecase.GetBooksSearchUseCase
 import com.example.googlebooksapitest.domain.usecase.GetFavoritesBooksUseCase
 import com.example.googlebooksapitest.presenter.model.BookModel
@@ -19,6 +16,7 @@ class BookSearchViewModel(): ViewModel()  {
     var adpBookList: MutableLiveData<AdpBookList> = MutableLiveData()
     private val searchUseCase = GetBooksSearchUseCase()
     private val favoritesBooksUseCase = GetFavoritesBooksUseCase()
+    var favorites: MutableLiveData<Boolean> = MutableLiveData()
     lateinit var listener: BookListClickListener
     fun searchBooksFromWeb(words: String, listener: BookListClickListener){
         viewModelScope.launch {
@@ -48,18 +46,30 @@ class BookSearchViewModel(): ViewModel()  {
                 adapter = AdpBookList(books, listener)
                 adpBookList.postValue(adapter)
             }
-
+            favorites.postValue(response.success)
         }
     }
-    suspend fun getFavoritesUsecase(context : Context){
+     fun getFavoritesUsecase(context : Context,listener: BookListClickListener){
         viewModelScope.launch {
             val res = favoritesBooksUseCase.getFavorites(context)
             if( res.success){
                 var books = mutableListOf<BookModel>()
+                for (item in res.favorites!!){
+                    books.add(BookModel(
+                        title = item.title,
+                        description = item.description,
+                        imgCover = item.imgCover,
+                        author = item.author,
+                        published = item.published,
+                        favorite = true,
+                        linkToWeb = item.linkToWeb ,
+                    ))
+                }
                 adapter = AdpBookList(books, listener)
                 adpBookList.postValue(adapter)
             }
         }
+
 
     }
 }

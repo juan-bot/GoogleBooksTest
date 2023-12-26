@@ -1,9 +1,7 @@
 package com.example.googlebooksapitest.presenter.view
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Window
-import android.view.WindowManager
+import androidx.appcompat.app.AppCompatActivity
 import com.example.googlebooksapitest.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

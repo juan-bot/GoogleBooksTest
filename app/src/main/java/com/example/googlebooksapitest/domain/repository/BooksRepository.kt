@@ -8,7 +8,7 @@ import com.example.googlebooksapitest.data.model.BooksResponse
 import com.example.googlebooksapitest.data.network.RetrofitBooks
 import retrofit2.Response
 
-class GetBooksRepository {
+class BooksRepository {
     suspend fun getByWord(words: String, key: String): Response<BooksResponse> {
         return RetrofitBooks.api().getBooks(words, key)
 
@@ -20,5 +20,8 @@ class GetBooksRepository {
     }
     private suspend fun createDB(context: Context): AppDataBase {
         return DataBase(context).getDB()
+    }
+    suspend fun insertBook(context: Context, bookEntity: BookEntity){
+        val responseRoom = createDB(context).bookDao().insert(bookEntity)
     }
 }

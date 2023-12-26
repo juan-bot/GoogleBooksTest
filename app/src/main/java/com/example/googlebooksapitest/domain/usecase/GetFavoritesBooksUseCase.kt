@@ -2,11 +2,11 @@ package com.example.googlebooksapitest.domain.usecase
 
 import android.content.Context
 import com.example.googlebooksapitest.data.model.ResponseData
-import com.example.googlebooksapitest.domain.repository.GetBooksRepository
+import com.example.googlebooksapitest.domain.repository.BooksRepository
 import com.example.googlebooksapitest.presenter.model.BookModel
 
 class GetFavoritesBooksUseCase {
-    private val repository = GetBooksRepository()
+    private val repository = BooksRepository()
 
     suspend fun getFavorites(context: Context): ResponseData {
         val res = repository.getFavorites(context)

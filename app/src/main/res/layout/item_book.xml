@@ -44,7 +44,7 @@
 
             />
         <Button
-            android:id="@+id/btn_detail"
+            android:id="@+id/btn_website"
             android:text="@string/btn_detail"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
