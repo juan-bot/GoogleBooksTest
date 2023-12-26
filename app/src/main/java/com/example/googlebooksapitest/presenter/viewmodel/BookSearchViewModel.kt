@@ -46,13 +46,14 @@ class BookSearchViewModel(): ViewModel()  {
                 adapter = AdpBookList(books, listener)
                 adpBookList.postValue(adapter)
             }
-            favorites.postValue(response.success)
         }
     }
      fun getFavoritesUsecase(context : Context,listener: BookListClickListener){
         viewModelScope.launch {
             val res = favoritesBooksUseCase.getFavorites(context)
+
             if( res.success){
+                favorites.postValue(true)
                 var books = mutableListOf<BookModel>()
                 for (item in res.favorites!!){
                     books.add(BookModel(
@@ -68,6 +69,8 @@ class BookSearchViewModel(): ViewModel()  {
                 adapter = AdpBookList(books, listener)
                 adpBookList.postValue(adapter)
             }
+            else
+                favorites.setValue(false)
         }
 
 
